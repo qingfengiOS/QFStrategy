@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD08BA2121EC6958004714C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA2021EC6958004714C2 /* AppDelegate.swift */; };
+		FD08BA2321EC6958004714C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA2221EC6958004714C2 /* ViewController.swift */; };
+		FD08BA2621EC6958004714C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD08BA2421EC6958004714C2 /* Main.storyboard */; };
+		FD08BA2821EC6959004714C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD08BA2721EC6959004714C2 /* Assets.xcassets */; };
+		FD08BA2B21EC6959004714C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD08BA2921EC6959004714C2 /* LaunchScreen.storyboard */; };
+		FD08BA3621EC6959004714C2 /* QFStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA3521EC6959004714C2 /* QFStrategyTests.swift */; };
+		FD08BA4121EC6959004714C2 /* QFStrategyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA4021EC6959004714C2 /* QFStrategyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD08BA3221EC6959004714C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD08BA1521EC6958004714C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD08BA1C21EC6958004714C2;
+			remoteInfo = QFStrategy;
+		};
+		FD08BA3D21EC6959004714C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD08BA1521EC6958004714C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD08BA1C21EC6958004714C2;
+			remoteInfo = QFStrategy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD08BA1D21EC6958004714C2 /* QFStrategy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFStrategy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD08BA2021EC6958004714C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD08BA2221EC6958004714C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD08BA2521EC6958004714C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD08BA2721EC6959004714C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD08BA2A21EC6959004714C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD08BA2C21EC6959004714C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD08BA3121EC6959004714C2 /* QFStrategyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFStrategyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD08BA3521EC6959004714C2 /* QFStrategyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFStrategyTests.swift; sourceTree = "<group>"; };
+		FD08BA3721EC6959004714C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD08BA3C21EC6959004714C2 /* QFStrategyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFStrategyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD08BA4021EC6959004714C2 /* QFStrategyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFStrategyUITests.swift; sourceTree = "<group>"; };
+		FD08BA4221EC6959004714C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD08BA1A21EC6958004714C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA2E21EC6959004714C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA3921EC6959004714C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD08BA1421EC6958004714C2 = {
+			isa = PBXGroup;
+			children = (
+				FD08BA1F21EC6958004714C2 /* QFStrategy */,
+				FD08BA3421EC6959004714C2 /* QFStrategyTests */,
+				FD08BA3F21EC6959004714C2 /* QFStrategyUITests */,
+				FD08BA1E21EC6958004714C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD08BA1E21EC6958004714C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA1D21EC6958004714C2 /* QFStrategy.app */,
+				FD08BA3121EC6959004714C2 /* QFStrategyTests.xctest */,
+				FD08BA3C21EC6959004714C2 /* QFStrategyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD08BA1F21EC6958004714C2 /* QFStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA2021EC6958004714C2 /* AppDelegate.swift */,
+				FD08BA2221EC6958004714C2 /* ViewController.swift */,
+				FD08BA2421EC6958004714C2 /* Main.storyboard */,
+				FD08BA2721EC6959004714C2 /* Assets.xcassets */,
+				FD08BA2921EC6959004714C2 /* LaunchScreen.storyboard */,
+				FD08BA2C21EC6959004714C2 /* Info.plist */,
+			);
+			path = QFStrategy;
+			sourceTree = "<group>";
+		};
+		FD08BA3421EC6959004714C2 /* QFStrategyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA3521EC6959004714C2 /* QFStrategyTests.swift */,
+				FD08BA3721EC6959004714C2 /* Info.plist */,
+			);
+			path = QFStrategyTests;
+			sourceTree = "<group>";
+		};
+		FD08BA3F21EC6959004714C2 /* QFStrategyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA4021EC6959004714C2 /* QFStrategyUITests.swift */,
+				FD08BA4221EC6959004714C2 /* Info.plist */,
+			);
+			path = QFStrategyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD08BA1C21EC6958004714C2 /* QFStrategy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD08BA4521EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategy" */;
+			buildPhases = (
+				FD08BA1921EC6958004714C2 /* Sources */,
+				FD08BA1A21EC6958004714C2 /* Frameworks */,
+				FD08BA1B21EC6958004714C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFStrategy;
+			productName = QFStrategy;
+			productReference = FD08BA1D21EC6958004714C2 /* QFStrategy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD08BA3021EC6959004714C2 /* QFStrategyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD08BA4821EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategyTests" */;
+			buildPhases = (
+				FD08BA2D21EC6959004714C2 /* Sources */,
+				FD08BA2E21EC6959004714C2 /* Frameworks */,
+				FD08BA2F21EC6959004714C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD08BA3321EC6959004714C2 /* PBXTargetDependency */,
+			);
+			name = QFStrategyTests;
+			productName = QFStrategyTests;
+			productReference = FD08BA3121EC6959004714C2 /* QFStrategyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD08BA3B21EC6959004714C2 /* QFStrategyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD08BA4B21EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategyUITests" */;
+			buildPhases = (
+				FD08BA3821EC6959004714C2 /* Sources */,
+				FD08BA3921EC6959004714C2 /* Frameworks */,
+				FD08BA3A21EC6959004714C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD08BA3E21EC6959004714C2 /* PBXTargetDependency */,
+			);
+			name = QFStrategyUITests;
+			productName = QFStrategyUITests;
+			productReference = FD08BA3C21EC6959004714C2 /* QFStrategyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD08BA1521EC6958004714C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qingfengiOS;
+				TargetAttributes = {
+					FD08BA1C21EC6958004714C2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FD08BA3021EC6959004714C2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD08BA1C21EC6958004714C2;
+					};
+					FD08BA3B21EC6959004714C2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD08BA1C21EC6958004714C2;
+					};
+				};
+			};
+			buildConfigurationList = FD08BA1821EC6958004714C2 /* Build configuration list for PBXProject "QFStrategy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD08BA1421EC6958004714C2;
+			productRefGroup = FD08BA1E21EC6958004714C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD08BA1C21EC6958004714C2 /* QFStrategy */,
+				FD08BA3021EC6959004714C2 /* QFStrategyTests */,
+				FD08BA3B21EC6959004714C2 /* QFStrategyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD08BA1B21EC6958004714C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08BA2B21EC6959004714C2 /* LaunchScreen.storyboard in Resources */,
+				FD08BA2821EC6959004714C2 /* Assets.xcassets in Resources */,
+				FD08BA2621EC6958004714C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA2F21EC6959004714C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA3A21EC6959004714C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD08BA1921EC6958004714C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08BA2321EC6958004714C2 /* ViewController.swift in Sources */,
+				FD08BA2121EC6958004714C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA2D21EC6959004714C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08BA3621EC6959004714C2 /* QFStrategyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD08BA3821EC6959004714C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08BA4121EC6959004714C2 /* QFStrategyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD08BA3321EC6959004714C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD08BA1C21EC6958004714C2 /* QFStrategy */;
+			targetProxy = FD08BA3221EC6959004714C2 /* PBXContainerItemProxy */;
+		};
+		FD08BA3E21EC6959004714C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD08BA1C21EC6958004714C2 /* QFStrategy */;
+			targetProxy = FD08BA3D21EC6959004714C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD08BA2421EC6958004714C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD08BA2521EC6958004714C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD08BA2921EC6959004714C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD08BA2A21EC6959004714C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD08BA4321EC6959004714C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD08BA4421EC6959004714C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD08BA4621EC6959004714C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD08BA4721EC6959004714C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD08BA4921EC6959004714C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFStrategy.app/QFStrategy";
+			};
+			name = Debug;
+		};
+		FD08BA4A21EC6959004714C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QFStrategy.app/QFStrategy";
+			};
+			name = Release;
+		};
+		FD08BA4C21EC6959004714C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFStrategy;
+			};
+			name = Debug;
+		};
+		FD08BA4D21EC6959004714C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QFStrategyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingfeng.www.QFStrategyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QFStrategy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD08BA1821EC6958004714C2 /* Build configuration list for PBXProject "QFStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08BA4321EC6959004714C2 /* Debug */,
+				FD08BA4421EC6959004714C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD08BA4521EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08BA4621EC6959004714C2 /* Debug */,
+				FD08BA4721EC6959004714C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD08BA4821EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08BA4921EC6959004714C2 /* Debug */,
+				FD08BA4A21EC6959004714C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD08BA4B21EC6959004714C2 /* Build configuration list for PBXNativeTarget "QFStrategyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD08BA4C21EC6959004714C2 /* Debug */,
+				FD08BA4D21EC6959004714C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD08BA1521EC6958004714C2 /* Project object */;
+}
