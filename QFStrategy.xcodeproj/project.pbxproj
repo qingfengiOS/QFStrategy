@@ -14,6 +14,11 @@
 		FD08BA2B21EC6959004714C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD08BA2921EC6959004714C2 /* LaunchScreen.storyboard */; };
 		FD08BA3621EC6959004714C2 /* QFStrategyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA3521EC6959004714C2 /* QFStrategyTests.swift */; };
 		FD08BA4121EC6959004714C2 /* QFStrategyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA4021EC6959004714C2 /* QFStrategyUITests.swift */; };
+		FD08BA6321EC7508004714C2 /* CashContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA5E21EC7507004714C2 /* CashContext.swift */; };
+		FD08BA6A21EC7543004714C2 /* CashSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA6521EC7543004714C2 /* CashSuper.swift */; };
+		FD08BA6B21EC7543004714C2 /* CashDiscount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA6721EC7543004714C2 /* CashDiscount.swift */; };
+		FD08BA6C21EC7543004714C2 /* CashNormal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA6821EC7543004714C2 /* CashNormal.swift */; };
+		FD08BA6D21EC7543004714C2 /* CashRebate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD08BA6921EC7543004714C2 /* CashRebate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FD08BA3C21EC6959004714C2 /* QFStrategyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFStrategyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD08BA4021EC6959004714C2 /* QFStrategyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFStrategyUITests.swift; sourceTree = "<group>"; };
 		FD08BA4221EC6959004714C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD08BA5E21EC7507004714C2 /* CashContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashContext.swift; sourceTree = "<group>"; };
+		FD08BA6521EC7543004714C2 /* CashSuper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashSuper.swift; sourceTree = "<group>"; };
+		FD08BA6721EC7543004714C2 /* CashDiscount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashDiscount.swift; sourceTree = "<group>"; };
+		FD08BA6821EC7543004714C2 /* CashNormal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashNormal.swift; sourceTree = "<group>"; };
+		FD08BA6921EC7543004714C2 /* CashRebate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashRebate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,9 @@
 		FD08BA1F21EC6958004714C2 /* QFStrategy */ = {
 			isa = PBXGroup;
 			children = (
+				FD08BA5D21EC7507004714C2 /* 策略 */,
+				FD08BA6421EC7543004714C2 /* 抽象算法接口 */,
+				FD08BA6621EC7543004714C2 /* 具体算法实现 */,
 				FD08BA2021EC6958004714C2 /* AppDelegate.swift */,
 				FD08BA2221EC6958004714C2 /* ViewController.swift */,
 				FD08BA2421EC6958004714C2 /* Main.storyboard */,
@@ -123,6 +136,32 @@
 				FD08BA4221EC6959004714C2 /* Info.plist */,
 			);
 			path = QFStrategyUITests;
+			sourceTree = "<group>";
+		};
+		FD08BA5D21EC7507004714C2 /* 策略 */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA5E21EC7507004714C2 /* CashContext.swift */,
+			);
+			path = "策略";
+			sourceTree = "<group>";
+		};
+		FD08BA6421EC7543004714C2 /* 抽象算法接口 */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA6521EC7543004714C2 /* CashSuper.swift */,
+			);
+			path = "抽象算法接口";
+			sourceTree = "<group>";
+		};
+		FD08BA6621EC7543004714C2 /* 具体算法实现 */ = {
+			isa = PBXGroup;
+			children = (
+				FD08BA6721EC7543004714C2 /* CashDiscount.swift */,
+				FD08BA6821EC7543004714C2 /* CashNormal.swift */,
+				FD08BA6921EC7543004714C2 /* CashRebate.swift */,
+			);
+			path = "具体算法实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD08BA6A21EC7543004714C2 /* CashSuper.swift in Sources */,
+				FD08BA6C21EC7543004714C2 /* CashNormal.swift in Sources */,
+				FD08BA6321EC7508004714C2 /* CashContext.swift in Sources */,
+				FD08BA6D21EC7543004714C2 /* CashRebate.swift in Sources */,
+				FD08BA6B21EC7543004714C2 /* CashDiscount.swift in Sources */,
 				FD08BA2321EC6958004714C2 /* ViewController.swift in Sources */,
 				FD08BA2121EC6958004714C2 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +477,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFStrategy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +496,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZK6T3AW3W;
 				INFOPLIST_FILE = QFStrategy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
